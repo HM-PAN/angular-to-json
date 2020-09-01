@@ -1,0 +1,14 @@
+<h4>Form to JSON File</h4>
+<p>Hello Amina</p>
+<form #form1='ngForm' (ngSubmit)='saveToFile()'>
+  <label>
+    firstname
+    <input type='text' name='firstname' id='firstname' placeholder='give firstname' [(ngModel)]='data.firstname'/>
+  </label>
+  <label>
+    lastname
+    <input type='text' name='lastname' id='lastname' placeholder='give lastname' [(ngModel)]='data.lastname'/>
+  </label>
+
+  <input type='submit' value='save to file'/>
+</form>

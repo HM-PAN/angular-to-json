@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px;
+  color:blueviolet
+}
